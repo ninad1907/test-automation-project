@@ -1,66 +1,96 @@
-🚀 E-Commerce Test Automation & QA Workflow (nopCommerce)
+# 🚀 E-Commerce Test Automation & QA Workflow (nopCommerce)
 
-📌 Overview
-
+## 📌 Overview
 This repository showcases a comprehensive automation testing workflow performed on an e-commerce application (nopCommerce). It includes end-to-end activities such as test planning, test case design, defect reporting, automation testing, CI/CD integration, and reporting.
 
-The project demonstrates a structured QA approach combining manual testing practices with automation frameworks.
+The project demonstrates a structured QA approach combining manual testing practices with automation frameworks using Selenium, TestNG, and Cucumber (BDD).
 
-🛠️ Tech Stack
+---
 
-Language: Java
+## 🛠️ Tech Stack
+- Language: Java  
+- Automation Tool: Selenium WebDriver  
+- Frameworks: TestNG, Cucumber (BDD)  
+- Database: MySQL (via JDBC)  
+- CI/CD: Jenkins  
+- Bug Tracking & Test Management: JIRA  
 
-Automation Tool: Selenium WebDriver
+---
 
-Frameworks: TestNG, Cucumber (BDD)
-
-Database: MySQL (via JDBC)
-
-CI/CD: Jenkins
-
-Bug Tracking & Test Management: JIRA
-
-Reporting: Custom reports & logs
-
-📂 Repository Structure
+## 📂 Repository Structure
 Day1_Test_Plan/              → Test planning documents  
+Day2_Test_Cases/             → Designed test cases  
+Day3_Defect_Report/          → Defect tracking and reporting  
+Jenkins/                     → CI/CD setup files  
+Nopcommerce/                 → Automation scripts and framework  
+Reports/                     → Execution reports  
+nopCommerce_Presentation/    → Project documentation  
+README.md                    → Project overview  
 
-Day2_Test_Cases/            → Designed test cases for core workflows  
+---
 
-Day3_Defect_Report/         → Defect tracking and reporting  
+## ⚙️ Key Features
+- End-to-end QA lifecycle implementation (STLC)  
+- Automation framework using Selenium + TestNG + Cucumber (BDD)  
+- CI/CD integration with Jenkins  
+- Structured defect tracking and reporting  
+- Validation of core e-commerce workflows  
 
-Jenkins/                    → CI/CD setup and execution files  
+---
 
-Nopcommerce/                → Automation scripts and test framework  
+## 🧪 Automated Test Coverage
 
-Reports/                    → Execution reports and results  
+The following test scenarios are automated using step definitions and reusable page objects:
 
-nopCommerce_Presentation/   → Project documentation & summary  
+- User Registration (Step_Register.java)  
+- User Login (Step_Login.java)  
+- Search Functionality (Step_Search.java)  
+- Add to Cart (Step_AddToCart.java)  
+- Delete from Cart (Step_DeleteFromCart.java)  
+- Add to Wishlist (Step_AddToWishlist.java)  
+- Add Address (Step_AddAddress.java)  
+- Change Currency (Step_ChangeCurrency.java)  
+- Logout & Change Password (Step_Logout_ChangePassword.java)  
+- Social Media Validation (Step_SocialMedia.java)  
 
-README.md                   → Project overview  
+### Framework Components
+- Page Object Model: PageClass.java  
+- Test Runner: TestRunner.java  
 
-⚙️ Key Features
+---
 
-End-to-end QA lifecycle implementation
+## ▶️ How to Run
 
-Test planning, test case design, and defect reporting
+1. Clone the repository  
+git clone https://github.com/your-username/your-repo-name.git
 
-Automated testing using Selenium, TestNG, and Cucumber (BDD)
+2. Navigate to automation folder  
+cd Nopcommerce
 
-CI/CD integration with Jenkins for automated test execution
+3. Run tests  
+mvn test
 
-Structured reporting and debugging workflows
+(Ensure Java, Maven, and required dependencies are installed)
 
-Validation of core e-commerce functionalities
+---
 
-🧪 Test Coverage
+## 📊 Outcome
+- Improved test coverage and execution efficiency  
+- Reduced manual testing effort through automation  
+- Strengthened understanding of end-to-end QA workflows  
 
-User registration and login
+---
 
-Product search and navigation
+## 🧠 Learning Highlights
+- Hands-on experience with BDD and automation frameworks  
+- Practical exposure to CI/CD pipelines using Jenkins  
+- Developed understanding of system workflows and data validation  
+- Built reusable and scalable test automation architecture  
 
-Cart management (add/update/remove items)
+---
 
-Checkout and order processing
-
-End-to-end user journey validation
+## 🚀 Future Enhancements
+- Parallel test execution  
+- Advanced reporting (Allure/Extent Reports)  
+- Docker-based execution  
+- Performance and API testing integration  
