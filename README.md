@@ -59,21 +59,6 @@ The following test scenarios are automated using step definitions and reusable p
 
 ---
 
-## ▶️ How to Run
-
-1. Clone the repository  
-git clone https://github.com/your-username/your-repo-name.git
-
-2. Navigate to automation folder  
-cd Nopcommerce
-
-3. Run tests  
-mvn test
-
-(Ensure Java, Maven, and required dependencies are installed)
-
----
-
 ## 📊 Outcome
 - Improved test coverage and execution efficiency  
 - Reduced manual testing effort through automation  
@@ -87,10 +72,4 @@ mvn test
 - Developed understanding of system workflows and data validation  
 - Built reusable and scalable test automation architecture  
 
----
 
-## 🚀 Future Enhancements
-- Parallel test execution  
-- Advanced reporting (Allure/Extent Reports)  
-- Docker-based execution  
-- Performance and API testing integration  
